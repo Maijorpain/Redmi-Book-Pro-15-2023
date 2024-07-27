@@ -1,1 +1,10 @@
+[Unit]
+Description=Redmibook 15 2022 Fingerprint Driver
+After=NetworkManager.service
 
+[Service]
+ExecStart=/usr/bin/podman run --privileged -v /var/run/dbus:/var/run/dbus -v /var/lib/fprint:/var/lib/fprint --device /dev/bus/usb/$DEV_PATH fingerprint
+ExecStop=/bin/sh /opt/fingerprint-ocv/stop_fprint.sh
+
+[Install]
+WantedBy=multi-user.target
