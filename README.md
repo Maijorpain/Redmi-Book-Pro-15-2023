@@ -13,3 +13,5 @@ git clone git@github.com:Maijorpain/Redmi-Book-Pro-15-2023.git
 cd ./Redmi-Book-Pro-15-2023
 chmod +x install.sh
 ```
+Запустить скрипт
+
