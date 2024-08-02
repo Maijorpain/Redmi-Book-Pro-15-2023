@@ -11,7 +11,7 @@
 Склонировать репозиторий со скриптом
 
 ```
-git clone git@github.com:Maijorpain/Redmi-Book-Pro-15-2023.git
+git clone https://github.com/Maijorpain/Redmi-Book-Pro-15-2023.git
 ```
 Сделать файл исполнямым 
 ```
