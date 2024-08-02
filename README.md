@@ -18,7 +18,7 @@ git clone https://github.com/Maijorpain/Redmi-Book-Pro-15-2023.git
 cd ./Redmi-Book-Pro-15-2023
 chmod +x install.sh
 ```
-Запустить скрипт
+Запустить скрипт, будут запросы подтверждения установки, нажмите y и enter
 ```
 sudo /bin/sh ./install.sh 
 ```
