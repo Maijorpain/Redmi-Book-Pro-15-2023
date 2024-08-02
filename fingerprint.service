@@ -1,5 +1,5 @@
 [Unit]
-Description=Redmibook 15 2022 Fingerprint Driver
+Description=Redmibook 15 2023 Fingerprint
 After=NetworkManager.service
 
 [Service]
