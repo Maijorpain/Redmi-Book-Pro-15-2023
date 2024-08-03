@@ -20,5 +20,5 @@ chmod +x install.sh
 ```
 Запустить скрипт, будут запросы подтверждения установки, нажмите y и enter
 ```
-sudo /bin/sh ./install.sh 
+/bin/sh ./install.sh 
 ```
